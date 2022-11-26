@@ -2,25 +2,23 @@
 
 ########################################
 
-WHAT IS FLO ?
+# WHAT IS FLO ?
 ########################################
 
 FLO operates in the retail shoe industry. It provides service with a total of over 100 stores in 21 countries, mainly in Azerbaijan, Albania, Saudi Arabia, Kosovo, Jordan, Kazakhstan, Uzbekistan, Iraq and Georgia. FLO Retailing also continues to open and grow stores in the African continent.
 
 ########################################
 
-Business Problem
+# Business Problem
 ########################################
 
 FLO wants to know which customer groups could be possibly bring more value compared to other groups within the given time period. When they know about how many customer could be more valuable, they can manage their storage activities, CRM campaigns, special offers and many others... We will be detecting the most potential clients for the different time of periods and report back to FLO.
 ########################################
 
-Dataset Story
+# Dataset Story
 ########################################
 
-"""
 The dataset consists of information obtained from the past shopping behaviors of customers who made their last purchases as OmniChannel (both online and offline shopper) in 2020 - 2021.
-"""
 
 master_id: Unique client number
 
