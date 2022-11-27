@@ -2,7 +2,9 @@
 ###### (Business Problem)
 ########################################
 
-""" FLO wants to know which customer groups could be possibly bring more value compared to other groups within the given time period. When they know about how many customer could be more valuable, they can manage their storage activities, CRM campaigns, special offers and many others... We will be detecting the most potential clients for the different time of periods and report back to FLO.
+""" FLO wants to know which customer groups could be possibly bring more value compared to other groups within the given time period.
+ When they know about how many customer could be more valuable, they can manage their storage activities, CRM campaigns, special offers
+ and many others... We will be detecting the most potential clients for the different time of periods and report back to FLO.
 """
 
 ########################################
@@ -175,7 +177,7 @@ cltv = ggf.customer_lifetime_value(bgf,
                                    new_df['TENURE_WEEKLY'],
                                    new_df['MONETARY_AVG'],
                                    time=6, # 6 MONTH
-                                   freq="W",  # T's frequency information. (We mentioned that it was weekly.)
+                                   freq="W",  # T's frequency information. (WEEKLY)
                                    discount_rate=0.01) # consider discounts that can be made over time (discount rate)
 
 cltv = pd.DataFrame(cltv)
@@ -292,7 +294,7 @@ def cltv_prediction(df):
                                        new_df['TENURE_WEEKLY'],
                                        new_df['MONETARY_AVG'],
                                        time=6,  # 6 MONTH
-                                       freq="W",  # T's frequency information. (We mentioned that it was weekly.)
+                                       freq="W",  # T's frequency information. (WEEKLY)
                                        discount_rate=0.01)  # consider discounts that can be made over time (discount rate)
     cltv = pd.DataFrame(cltv)
     new_df["CLTV"] = cltv
