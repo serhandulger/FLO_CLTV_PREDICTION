@@ -2,8 +2,7 @@
 ###### (Business Problem)
 ########################################
 
-""" FLO wants to set a roadmap for sales and marketing activities.
-It is necessary to estimate the potential value that customers will provide to the company in the future.
+""" FLO wants to know which customer groups could be possibly bring more value compared to other groups within the given time period. When they know about how many customer could be more valuable, they can manage their storage activities, CRM campaigns, special offers and many others... We will be detecting the most potential clients for the different time of periods and report back to FLO.
 """
 
 ########################################
